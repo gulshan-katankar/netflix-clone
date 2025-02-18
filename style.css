@@ -5,6 +5,9 @@
 
 .main{
     background-image: url("asset/imagess/bg_img.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
     height: 80vh;
     position: relative;
 }
@@ -19,5 +22,22 @@
 }
 
 nav{
-    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60vw;
+    margin: auto;
+    height: 52px;
+}
+
+nav img{
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
 }
