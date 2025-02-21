@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -40,4 +42,31 @@ nav img{
 nav button{
     position: relative;
     z-index: 10;
+}
+
+.hero{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-family: "Martel Sans", serif;
+    position: relative;
+    gap: 23px;
+}
+
+.hero> :nth-child(1){
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.hero :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.hero :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
 }
